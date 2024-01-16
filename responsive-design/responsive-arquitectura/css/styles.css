@@ -1,0 +1,42 @@
+[class^="box"] {
+  margin: 3rem auto;
+  background-color: red;
+}
+.box {
+  width: 300px;
+  height: 300px;
+}
+/* cajas flexibles */
+.box-flex {
+  width: 50%;
+  height: 20vh;
+}
+/* punto maximo y minimo */
+.box-flex-2 {
+  max-width: 960px;
+  min-width: 280px;
+  max-height: 480px;
+  min-height: 240px;
+}
+/* punto maximo y minimo con altura y ancho base estaticos*/
+.box-flex-3 {
+  max-width: 960px;
+  min-width: 280px;
+  max-height: 480px;
+  min-height: 240px;
+  width: 300px;
+  height: 300px;
+}
+/*  punto maximo y minimo con altura y ancho base flexibles */
+.box-flex-3 {
+  max-width: 960px;
+  min-width: 280px;
+  max-height: 480px;
+  min-height: 240px;
+  width: 50%;
+  height: 20vh;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
